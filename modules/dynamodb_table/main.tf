@@ -1,6 +1,7 @@
 resource "aws_dynamodb_table" "this" {
   name         = var.table_name
   billing_mode = var.billing_mode
+  region       = var.region 
 
   hash_key = var.partition_key_name
 

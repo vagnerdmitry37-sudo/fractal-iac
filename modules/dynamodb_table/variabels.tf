@@ -30,3 +30,7 @@ variable "write_capacity" {
   type    = number
   default = 5
 }
+
+variable "region" {
+  type = string
+}
